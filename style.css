@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height:2rem;
+    width:100%;
+    border-bottom: 1px solid rgb(227, 204, 204);
+    margin-bottom:20px;
+}
+.navigation{
+    display:block;
+    padding:10px 5px 5px 10px;
+    margin:5px;
+}
+.herobar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+.landingpage{
+    background-size: cover;
+    max-height:240px;
+    max-width:650px;
+}
+
+/* invest */
+.invest{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.invest1 > h2{
+    font-size: 4rem;
+    opacity:0.7;
+}
+.invest1 > p{
+    font-size: 2rem;
+    opacity: 0.9;
+}
+button{
+    background-color: rgb(0, 119, 255);
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:1px solid rgb(0,119,255)
+}
+/* trophy */
+.trophy{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:auto;
+    margin:20px;
+    padding:20px;
+
+}
+
+.trophy1{
+    
+    max-width: 400px;
+    max-height:300px;
+    background-size: cover;
+}
+.trophy2{
+    width:50%;
+    display: block;
+}
+.trophy2 div h2{
+    opacity: 0.7;
+    font-size:3rem;
+}
+.trophy2 div p,ul li{
+    font-size:1.5rem;
+    
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list1, .list2{
+    display:block;
+}
+/* universe */
+.universe{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.universe div h2{
+    font-size: 4rem;
+    opacity: 0.7;
+}
+.universe div p{
+    font-size:1.5rem;
+}
+.apps{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%
+
+}
+.apps1 {
+    max-height: 600px;
+    max-width:900px;
+    background-size: cover;
+}
+/* varsity */
+.varsity{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height:auto;
+    padding:20px;
+    margin:20px;
+}
+
+
+.varsity1{
+    max-width:650px;
+    max-height:240px;
+    background-size:cover;
+}
+.varsity2{
+    width:50%
+}
+.varsity2 h2{
+    font-size:3rem;
+    opacity:0.7;
+}
+.varsity2 p{
+    font-size: 1.5rem;
+}
+.varsity2 a{
+    text-decoration: none;
+    color:rgb(68, 182, 214);
+    font-size: 1.5rem;
+}
+.openaccount{
+    text-align: center;
+
+}
+.openaccount h2{
+    font-size: 3rem;
+    opacity: 0.7;
+}
+.openaccount p{
+    font-size: 1.5rem;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.about1{
+    width:60%;
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+@media screen and (max-width:710px){
+    .trophy2{
+        width:100%
+    }
+    .varsity2{
+        width:100%
+    }
+}
+@media screen and (max-width:576px) {
+    .landingpage{
+        max-width:570px;
+        max-height:200px;
+    }
+    .apps1{
+        max-width:570px;
+        max-height:200px;
+        zoom: 1;
+    }
+    .trophy2{
+        width:100%
+    }
+    .varsity2{
+        width:100%
+    }
+
+    
+}
+
+@media screen and (max-width:261px){
+    .landingpage{
+        max-width: 250px;
+        max-height:90px;
+    }
+    .trophy1{
+        max-width:230px;
+        max-height:200px;
+    }
+    .app1{
+        max-width:260px;
+        max-width:200px;
+    }
+    .varsity1{
+        max-width:260px;
+        max-height:200px;
+    }
+}
